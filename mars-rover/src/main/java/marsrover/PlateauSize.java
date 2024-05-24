@@ -1,7 +1,7 @@
 package marsrover;
 
 public class PlateauSize {
-    // X Y Coordinates of the grid
+    // X Y Coordinates of the grid check here for max and min grid size
     int x;
     int y;
 
@@ -12,7 +12,7 @@ public class PlateauSize {
     }
 
 // Getters and Setters
-    public int getX() {
+    public  int getX() {
         return x;
     }
 

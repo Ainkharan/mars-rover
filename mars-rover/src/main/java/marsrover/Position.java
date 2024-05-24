@@ -1,12 +1,12 @@
 package marsrover;
 
-public class RoverPosition {
+public class Position {
 
     private int x;
     private int y;
     private CompassDirection facing; // this type can be whatever your direction enum is called
 
-    public RoverPosition(int x, int y, CompassDirection facing) {
+    public Position(int x, int y, CompassDirection facing) {
         this.x = x;
         this.y = y;
         this.facing = facing;
